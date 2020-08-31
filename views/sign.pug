@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h2 Step 2
+    p Sign in the box to correct your signature.
+    canvas(id="signature", class="signature_box", width="325", height="150")
+    button(onclick="submit()") Next
+
+    script(src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js")
+    script(src="/javascripts/sign.js")

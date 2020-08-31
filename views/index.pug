@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h2 Step 1
+    p The signaure on your mail-in-ballot doesn't match previous records.
+    p To get started, enter the pin supplied from earlier. <a href="#">What pin?</a>
+    if error
+        p(class="error") Invalid pin. Try again.
+    form(action="/", method="POST")
+        div
+            input(name="pin")
+            button(type="submit") Start

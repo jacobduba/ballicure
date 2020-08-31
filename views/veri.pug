@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h3 Step 3
+    p Upload your drivers license (or other forms of verification) to prove your identity.
+    if error
+        p(class="error") No image selected.
+    form(action="/step/verification", method="POST", enctype="multipart/form-data")
+        div
+            input(type="file" name="verification" accept="image/*")
+            button(type="submit") Finish
