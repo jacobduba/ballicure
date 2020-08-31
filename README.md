@@ -4,7 +4,7 @@
 
 Vote-by-mail is now a critical electoral institution. Urgency to implement systems state-by-state is increasing as the 2020 election gets closer.
 
-However, there are genuine concerns. Vote by mail introduces a complex ecosystem where EVERY state has get EVERY part right. That's a lot of points of failure. A couple of requirements for a fair vote-by-mail election:
+However, there are genuine concerns. Vote-by-mail introduces a complex ecosystem where EVERY state has get EVERY part right. That's a lot of points of failure. A couple of requirements for a fair vote-by-mail election:
 * Resilient postal service
 * Verifiable vote counting
 * Accessible vote tracking
